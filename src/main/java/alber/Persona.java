@@ -8,20 +8,19 @@ import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlRootElement;
 
 import java.io.Serializable;
 
-/*Las anotaciones */
+/*Las anotaciones para cambiar de orden y que queden más bonitos los ficheros */
 @JsonPropertyOrder({"nombre", "dni", "telefono"})
-@JacksonXmlRootElement(localName = "PersonaXML")
 public class Persona implements Serializable {
-    @JacksonXmlProperty(localName = "dni")
-    @JsonProperty("dni")
+    @JacksonXmlProperty(localName = "DNI")
+    @JsonProperty("DNI")
     private String dni;
 
-    @JacksonXmlProperty(localName = "nombre")
-    @JsonProperty("nombre")
+    @JacksonXmlProperty(localName = "Nombre")
+    @JsonProperty("Nombre")
     private String nombre;
 
-    @JacksonXmlProperty(localName = "telefono")
-    @JsonProperty("telefono")
+    @JacksonXmlProperty(localName = "Telefono")
+    @JsonProperty("Telefono")
     private long telefono;
 
     public Persona(String dni, String nombre, long telefono) {
@@ -29,7 +28,7 @@ public class Persona implements Serializable {
         this.nombre = nombre;
         this.telefono = telefono;
     }
-
+    //necesitamos este constructor para que el mapper cree las personas desde el fichero
     public Persona() {
     }
 

@@ -1,17 +1,12 @@
 <HashMap>
-  <11223344A>
-    <nombre>Alberto Cortijo</nombre>
-    <dni>11223344A</dni>
-    <telefono>111223344</telefono>
-  </11223344A>
-  <22334455G>
-    <nombre>David Garcia</nombre>
-    <dni>22334455G</dni>
-    <telefono>444556677</telefono>
-  </22334455G>
-  <456876269E>
-    <nombre>Pepe Luis</nombre>
-    <dni>456876269E</dni>
-    <telefono>680997754</telefono>
-  </456876269E>
+  <12345678G>
+    <Nombre>Pepe</Nombre>
+    <DNI>12345678G</DNI>
+    <Telefono>123456789</Telefono>
+  </12345678G>
+  <22445566A>
+    <Nombre>Jose luis</Nombre>
+    <DNI>22445566A</DNI>
+    <Telefono>234567894</Telefono>
+  </22445566A>
 </HashMap>

@@ -1,17 +1,12 @@
 {
-  "11223344A" : {
-    "nombre" : "Alberto Cortijo",
-    "dni" : "11223344A",
-    "telefono" : 111223344
+  "12345678G" : {
+    "Nombre" : "Pepe",
+    "DNI" : "12345678G",
+    "Telefono" : 123456789
   },
-  "22334455G" : {
-    "nombre" : "David Garcia",
-    "dni" : "22334455G",
-    "telefono" : 444556677
-  },
-  "456876269E" : {
-    "nombre" : "Pepe Luis",
-    "dni" : "456876269E",
-    "telefono" : 680997754
+  "22445566A" : {
+    "Nombre" : "Jose luis",
+    "DNI" : "22445566A",
+    "Telefono" : 234567894
   }
 }

@@ -93,7 +93,7 @@ public class Main {
                     System.out.println("Guardando contenido...");
                     agenda.guardarDatosJSON();
                     agenda.guardarDatosXML();
-                    Thread.sleep(1500);
+                    Thread.sleep(1000);
                     System.out.println("Guardado correctamente, que tengas un buen dia!");
                     salir = true;
                     break;
